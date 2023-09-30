@@ -42,14 +42,24 @@ const Faq = () => {
           <ul className="faqUl">
             <li>
               <p style={{ display: "flex", justifyContent: "space-between" }}>
-                Can I work on a project I started before the hackathon?{" "}
-                <span
-                  className="plus"
-                  onClick={() => setShow({ ...show, faq1: !show.faq1 })}
-                >
-                  {" "}
-                  +
-                </span>
+                Can I work on a project I started before the hackathon?
+                {!show.faq1 ? (
+                  <span
+                    className="plus"
+                    onClick={() => setShow({ ...show, faq1: !show.faq1 })}
+                  >
+                    {" "}
+                    +
+                  </span>
+                ) : (
+                  <span
+                    className="plus"
+                    onClick={() => setShow({ ...show, faq1: !show.faq1 })}
+                  >
+                    {" "}
+                    -
+                  </span>
+                )}
               </p>
               {show.faq1 && (
                 <p className="faq1">
@@ -64,13 +74,23 @@ const Faq = () => {
             <li>
               <p style={{ display: "flex", justifyContent: "space-between" }}>
                 What happens if I need help during the hackathon?
-                <span
-                  className="plus"
-                  onClick={() => setShow({ ...show, faq2: !show.faq2 })}
-                >
-                  {" "}
-                  +
-                </span>
+                {!show.faq2 ? (
+                  <span
+                    className="plus"
+                    onClick={() => setShow({ ...show, faq2: !show.faq2 })}
+                  >
+                    {" "}
+                    +
+                  </span>
+                ) : (
+                  <span
+                    className="plus"
+                    onClick={() => setShow({ ...show, faq2: !show.faq2 })}
+                  >
+                    {" "}
+                    -
+                  </span>
+                )}
               </p>
               {show.faq2 && (
                 <p className="faq1">
@@ -85,13 +105,23 @@ const Faq = () => {
             <li>
               <p style={{ display: "flex", justifyContent: "space-between" }}>
                 What happens if I don't have an idea for a project?
-                <span
-                  className="plus"
-                  onClick={() => setShow({ ...show, faq3: !show.faq3 })}
-                >
-                  {" "}
-                  +
-                </span>
+                {!show.faq3 ? (
+                  <span
+                    className="plus"
+                    onClick={() => setShow({ ...show, faq3: !show.faq3 })}
+                  >
+                    {" "}
+                    +
+                  </span>
+                ) : (
+                  <span
+                    className="plus"
+                    onClick={() => setShow({ ...show, faq3: !show.faq3 })}
+                  >
+                    {" "}
+                    -
+                  </span>
+                )}
               </p>
               {show.faq3 && (
                 <p className="faq1">
@@ -106,13 +136,23 @@ const Faq = () => {
             <li>
               <p style={{ display: "flex", justifyContent: "space-between" }}>
                 Can I join a team or do I have to come with one?
-                <span
-                  className="plus"
-                  onClick={() => setShow({ ...show, faq4: !show.faq4 })}
-                >
-                  {" "}
-                  +
-                </span>
+                {!show.faq4 ? (
+                  <span
+                    className="plus"
+                    onClick={() => setShow({ ...show, faq4: !show.faq4 })}
+                  >
+                    {" "}
+                    +
+                  </span>
+                ) : (
+                  <span
+                    className="plus"
+                    onClick={() => setShow({ ...show, faq4: !show.faq4 })}
+                  >
+                    {" "}
+                    -
+                  </span>
+                )}
               </p>
               {show.faq4 && (
                 <p className="faq1">
@@ -127,13 +167,23 @@ const Faq = () => {
             <li>
               <p style={{ display: "flex", justifyContent: "space-between" }}>
                 What happens after the hackathon ends
-                <span
-                  className="plus"
-                  onClick={() => setShow({ ...show, faq5: !show.faq5 })}
-                >
-                  {" "}
-                  +
-                </span>
+                {!show.faq5 ? (
+                  <span
+                    className="plus"
+                    onClick={() => setShow({ ...show, faq5: !show.faq5 })}
+                  >
+                    {" "}
+                    +
+                  </span>
+                ) : (
+                  <span
+                    className="plus"
+                    onClick={() => setShow({ ...show, faq5: !show.faq5 })}
+                  >
+                    {" "}
+                    -
+                  </span>
+                )}
               </p>
               {show.faq5 && (
                 <p className="faq1">
@@ -148,13 +198,23 @@ const Faq = () => {
             <li>
               <p style={{ display: "flex", justifyContent: "space-between" }}>
                 Can I work on a project I started before the hackathon?
-                <span
-                  className="plus"
-                  onClick={() => setShow({ ...show, faq6: !show.faq6 })}
-                >
-                  {" "}
-                  +
-                </span>
+                {!show.faq6 ? (
+                  <span
+                    className="plus"
+                    onClick={() => setShow({ ...show, faq6: !show.faq6 })}
+                  >
+                    {" "}
+                    +
+                  </span>
+                ) : (
+                  <span
+                    className="plus"
+                    onClick={() => setShow({ ...show, faq6: !show.faq6 })}
+                  >
+                    {" "}
+                    -
+                  </span>
+                )}
               </p>
               {show.faq6 && (
                 <p className="faq1">
