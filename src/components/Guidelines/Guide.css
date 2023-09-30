@@ -1,0 +1,104 @@
+.guideContainer {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  position: relative;
+  overflow: hidden;
+}
+.star3 {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+}
+.star4 {
+  position: absolute;
+  top: 65%;
+  right: 45%;
+}
+.purple3 {
+  position: absolute;
+  /* right: 0px; */
+  left: 10%;
+  bottom: 4%;
+  mix-blend-mode: hard-light;
+}
+.purple4 {
+  position: absolute;
+  /* right: 0px; */
+  top: 40%;
+  right: 0px;
+  mix-blend-mode: hard-light;
+}
+.guide {
+  width: 70vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+  /* background: #140d27; */
+}
+
+.guideImageContainer {
+  position: relative;
+  width: 60%;
+  order: 2;
+  background-image: url("../../images/maskCircle.png");
+  background-repeat: no-repeat;
+  background-position: 70% 18%;
+}
+
+.guide img {
+  width: 100%;
+}
+
+.guideTextsContainer {
+  width: 60%;
+  margin-right: 50px;
+}
+
+.guide h2 {
+  color: #fff;
+  font-family: Clash Display;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 30px;
+  /* line-height:  */
+}
+.guideTextsContainer p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33.5px; /* 196.429% */
+}
+
+@media screen and (max-width: 576px) {
+  .guideContainer {
+    width: 100%;
+  }
+  .guideImageContainer {
+    background-image: unset;
+    position: relative;
+    width: 100%;
+    order: 1;
+  }
+  .guideTextsContainer {
+    order: 1;
+    width: 100%;
+    margin-right: 0px;
+  }
+  .guide {
+    width: 95vw;
+    flex-direction: column;
+  }
+
+  .guide h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .guideTextsContainer p {
+    font-size: 13px;
+    text-align: center;
+  }
+}

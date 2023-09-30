@@ -1,0 +1,214 @@
+.privacyContainer {
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+  position: relative;
+  overflow: hidden;
+}
+.purple11 {
+  mix-blend-mode: hard-light;
+  position: absolute;
+  left: 0%;
+  bottom: -18%;
+}
+.privacy {
+  width: 70vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 180px 0;
+  /* background: #140d27; */
+}
+
+.privacyImageContainer {
+  overflow: hidden;
+  position: relative;
+  width: 60%;
+  order: 2;
+}
+.security {
+  width: 60%;
+  position: absolute;
+  top: -90px;
+  left: 90px;
+}
+.keyman {
+  width: 100%;
+  position: relative;
+  top: 60px;
+}
+
+.privacyTextsContainer {
+  width: 60%;
+  margin-right: 50px;
+}
+
+.topPrivacyGroup {
+  width: 75%;
+}
+
+.privacy h2 {
+  color: #fff;
+  font-family: Clash Display;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+.midP {
+  margin-bottom: 30px;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.5px; /* 196.429% */
+}
+
+.lowP {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 188.4%;
+  margin-bottom: 50px;
+}
+/* .privacyTextsContainer p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33.5px;
+} */
+
+.bottomPrivacyGroup {
+  border-radius: 5px;
+  border: 1px solid #d434fe;
+  background: rgba(217, 217, 217, 0.03);
+  padding: 60px 40px 60px 80px;
+}
+
+.privacyOne {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 216.4%; /* 30.296px */
+  margin-bottom: 30px;
+}
+
+.privacyH3 {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 216.4%;
+}
+
+.licencing1 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 216.4%;
+  margin-bottom: 30px;
+}
+
+.licenseText {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 216.4%; /* 30.296px */
+  /* background-color: #af7474; */
+  margin-bottom: 20px;
+}
+
+.licenceTextGroup {
+  display: flex;
+  /* justify-content: center; */
+}
+
+.svgg {
+  margin-right: 20px;
+  position: relative;
+  top: 9px;
+  /* display: none; */
+}
+
+.privacyButton {
+  align-self: center;
+  margin: 0 auto;
+}
+
+.privacyButtonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+@media screen and (max-width: 576px) {
+  .privacyContainer {
+    width: 100%;
+  }
+  .privacy {
+    width: 80vw;
+    flex-direction: column;
+    padding: 100px 0;
+  }
+  .security {
+    top: -90px;
+    left: 0px;
+  }
+  .privacyImageContainer {
+    width: 100%;
+  }
+  .privacy img {
+    width: 100%;
+  }
+  .privacyTextsContainer {
+    width: 100%;
+    margin-right: 0;
+  }
+  .topPrivacyGroup {
+    width: 100%;
+    text-align: center;
+  }
+  .privacy h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .midP {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  .lowP {
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+  .bottomPrivacyGroup {
+    padding: 40px 15px;
+  }
+  .privacyOne {
+    text-align: center;
+    font-size: 12px;
+  }
+  .privacyH3 {
+    font-size: 13px;
+  }
+
+  .licencing1 {
+    font-size: 12px;
+  }
+  .licenseText {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,148 @@
+.criteriaContainer {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  position: relative;
+  overflow: hidden;
+}
+.star5 {
+  position: absolute;
+  top: 13%;
+  left: 18%;
+}
+.star6 {
+  position: absolute;
+  top: 86%;
+  right: 49%;
+}
+.purple5 {
+  /* right: 0px; */
+  /* left: 0px; */
+  mix-blend-mode: hard-light;
+  position: absolute;
+  top: 30%;
+  /* left: 10px; */
+}
+.purple6 {
+  mix-blend-mode: hard-light;
+  position: absolute;
+  right: 0;
+  bottom: -45%;
+}
+.criteria {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0;
+  /* background: #140d27; */
+}
+
+.criteriaImageContainer {
+  position: relative;
+  width: 40%;
+  padding-top: 140px;
+  background-image: url("../../images/maskCircle.png");
+  background-repeat: no-repeat;
+  background-position: 25% 16%;
+}
+
+.judgeSpan {
+  color: #ff26b9;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 173.5%; /* 27.76px */
+}
+
+.criteria img {
+  width: 135%;
+  /* position: absolute; */
+}
+.criteriaUl {
+  margin-bottom: 50px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 173.5%;
+}
+
+.criteriaUl li {
+  margin-bottom: 30px;
+}
+
+.criteriaTextsContainer {
+  width: 50%;
+  margin-left: 270px;
+}
+
+.criteria h2 {
+  color: #fff;
+  font-family: Clash Display;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 30px;
+  /* line-height:  */
+}
+.criteriaTextsContainer p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33.5px; /* 196.429% */
+}
+
+@media screen and (max-width: 576px) {
+  .criteriaContainer {
+    width: 100%;
+  }
+  button {
+    width: 96.35px;
+    height: 31.346px;
+    font-size: 12px;
+  }
+  .criteria {
+    width: 95vw;
+    flex-direction: column;
+    padding: 80px 0;
+  }
+
+  .criteriaImageContainer {
+    background-image: unset;
+    width: 100%;
+    padding-top: 0;
+  }
+  .criteria img {
+    width: 100%;
+  }
+
+  .criteria h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .criteriaTextsContainer {
+    width: 90%;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .criteriaTextsContainer p {
+    font-size: 13px;
+  }
+  .judgeSpan {
+    font-size: 14px;
+  }
+  .criteriaUl {
+    font-size: 13px;
+    text-align: center;
+  }
+  .criteriaUl li {
+    margin-bottom: 15px;
+  }
+}

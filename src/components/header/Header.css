@@ -1,0 +1,199 @@
+* {
+  color: white;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+  padding: 20px 0px;
+  width: 90vw;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  padding-right: 60px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+}
+
+header a {
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: text-decoration 0.8s ease-in-out;
+}
+a:hover {
+  text-decoration: underline;
+}
+span {
+  color: #d434fe;
+}
+
+.HomeClick {
+  font-family: Clash Display;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.HomeClick:hover {
+  text-decoration: none;
+}
+button {
+  width: 172px;
+  height: 53px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: linear-gradient(
+    270deg,
+    #903aff 0%,
+    #d434fe 56.42%,
+    #ff26b9 99.99%,
+    #fe34b9 100%
+  );
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.navRegisterButton {
+  width: 172px;
+  height: 53px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: linear-gradient(
+    270deg,
+    #903aff 0%,
+    #d434fe 56.42%,
+    #ff26b9 99.99%,
+    #fe34b9 100%
+  );
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.navRegisterButton:hover {
+  text-decoration: none;
+}
+.dropdownImg {
+  display: none;
+}
+.hidden {
+  display: none;
+}
+.nav2 {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .HomeClick {
+    font-size: 15px;
+  }
+  .headerWrapper {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  header {
+    padding: 10px 30px;
+  }
+  .navRegisterButton2 {
+    width: 172px;
+    height: 53px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: linear-gradient(
+      270deg,
+      #903aff 0%,
+      #d434fe 56.42%,
+      #ff26b9 99.99%,
+      #fe34b9 100%
+    );
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .navRegisterButton2:hover {
+    text-decoration: none;
+  }
+  .dropdownImg {
+    display: flex;
+  }
+  header nav {
+    display: none;
+  }
+  .nav2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: unset;
+    height: 80vh;
+    width: 100vw;
+    padding-left: 60px;
+    padding-bottom: 60px;
+    background-color: #150e28;
+    z-index: 999;
+  }
+  .circleXcon {
+    position: relative;
+    /* background-color: azure; */
+  }
+
+  .cancelWrapper {
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -15px;
+    padding-top: 20px;
+  }
+  .circlex {
+    position: absolute;
+  }
+  .cancelX {
+    position: absolute;
+  }
+
+  .nav2 ul {
+    display: flex;
+    align-items: unset;
+    flex-direction: column;
+    height: 40%;
+    /* width: 100vw; */
+  }
+  .nav2 ul a {
+    text-align: left;
+  }
+}

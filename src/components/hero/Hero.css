@@ -1,0 +1,269 @@
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .sec {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+.heroContainer {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  position: relative;
+  overflow: hidden;
+  background-image: url("../../images/purple5.png"),
+    url("../../images/purple2.png");
+  background-repeat: no-repeat;
+  background-position: 0% -400%, 100% -400%;
+  background-blend-mode: hard-light;
+}
+.purple1 {
+  position: absolute;
+  mix-blend-mode: hard-light;
+  bottom: 40%;
+}
+.purple2 {
+  position: absolute;
+  right: 0px;
+  mix-blend-mode: hard-light;
+}
+.hero {
+  display: flex;
+  padding: 30px 0;
+  flex-direction: column;
+  width: 90vw;
+  margin: 0 auto;
+}
+.topTexts {
+  /* background-color: #fff; */
+  width: 50%;
+  text-align: right;
+  display: flex;
+  align-self: flex-end;
+}
+.runIt {
+  display: flex;
+  flex-direction: column;
+  padding-right: 15px;
+}
+.runIt img {
+  width: 15%;
+  align-self: flex-end;
+}
+.topTexts h2 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.midSection {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  /* background-blend-mode: hard-light; */
+}
+.whiteStar1 {
+  position: absolute;
+  top: -0%;
+  left: 15%;
+}
+.greyStar1 {
+  position: absolute;
+  left: 30%;
+  bottom: 30%;
+}
+.greyStar2 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+}
+
+.leftHero {
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px;
+  /* margin-top: 60px; */
+  /* align-items: center; */
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+.leftHero h1 {
+  font-family: Clash Display;
+  /* font-size: 110px; */
+  font-size: 5.6vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.leftHero h2 {
+  font-family: Unica One;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133%;
+}
+
+.leftHero h2 span {
+  font-family: Montserrat;
+  color: white;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133%;
+}
+.leftHero p {
+  width: 66%;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 166%;
+}
+
+.heroes {
+  margin: 80px 0 60px;
+}
+
+.leftHeroH1Container {
+  position: relative;
+  /* display: flex; */
+}
+.light {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* top: -15%; */
+  /* right: 12%; */
+  top: -2.3vw;
+  right: 6vw;
+}
+
+.chain {
+  position: absolute;
+  /* bottom: 8%; */
+  /* right: -8%; */
+  bottom: 1.5vw;
+  right: -2.5vw;
+}
+
+.rightHero {
+  width: 50%;
+  height: 800px;
+  /* height: 100%; */
+  position: relative;
+  /* border: 2px dashed red; */
+  /* background-image: url("../../images/purple.png"); */
+  background-position: right;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.heroImageContainer {
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+}
+.main {
+  position: absolute;
+  right: 0px;
+  mix-blend-mode: luminosity;
+  width: 100%;
+}
+
+.sec {
+  position: absolute;
+
+  /* left: 85px;
+  bottom: 180px; */
+  width: 100%;
+  max-width: 90%;
+  /* left: 5%;
+  bottom: 12%; */
+  opacity: 0.8;
+  z-index: 1;
+  mix-blend-mode: hard-light;
+}
+
+@media screen and (max-width: 576px) {
+  .heroContainer {
+    border: none;
+  }
+  .hero {
+    width: 98vw;
+    padding-top: 20px;
+  }
+  .topTexts {
+    text-align: center;
+    align-self: center;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .topTexts h2 {
+    font-size: 16px;
+  }
+  .runIt {
+    display: flex;
+    flex-direction: column;
+  }
+  .secondh2div {
+    /* width: 36%; */
+    width: 120px;
+    margin-left: -11px;
+    /* text-align: left; */
+  }
+  .secondh2div img {
+    width: 70%;
+  }
+
+  .midSection {
+    flex-direction: column;
+  }
+  .leftHero {
+    padding-left: 0px;
+    width: 100%;
+    align-items: center;
+  }
+  .leftHero h1 {
+    font-size: 32px;
+  }
+  .leftHero h2 {
+    font-size: 48px;
+  }
+  .leftHero p {
+    margin-top: 20px;
+    font-size: 13px;
+    text-align: center;
+  }
+  .leftHero button {
+    margin: 20px 0;
+  }
+  .light {
+    width: 10%;
+  }
+  .chain {
+    width: 25%;
+    right: -7.5vw;
+  }
+  .rightHero {
+    width: 90%;
+    /* height: 400px; */
+    height: 70vw;
+  }
+  .heroImageContainer {
+    height: 100%;
+  }
+}

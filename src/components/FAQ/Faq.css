@@ -1,0 +1,176 @@
+.faqContainer {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  position: relative;
+}
+.star7 {
+  position: absolute;
+  top: 10%;
+  left: 11%;
+}
+.star8 {
+  position: absolute;
+  top: 11%;
+  right: 33%;
+}
+.star9 {
+  position: absolute;
+  top: 56%;
+  right: 49%;
+}
+.questionImage {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.qImgConts {
+  /* background-color: #fff; */
+  /* position: absolute; */
+  position: relative;
+  top: 40px;
+  left: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.midQim {
+  position: relative;
+  bottom: 40px;
+}
+.questionImage img {
+  width: 50%;
+  margin-right: 80px;
+}
+.faq {
+  width: 70vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+  /* background: #140d27; */
+}
+
+.faqImageContainer {
+  position: relative;
+  width: 60%;
+  order: 2;
+}
+
+.faq img {
+  width: 100%;
+}
+
+.faqTextsContainer {
+  width: 60%;
+  margin-right: 50px;
+}
+
+.qText {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.5px; /* 196.429% */
+  width: 60%;
+  margin-bottom: 60px;
+}
+.faq1 {
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: 25px;
+}
+.faq h2 {
+  color: #fff;
+  font-family: Clash Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 20px;
+  /* line-height:  */
+}
+.faqTextsContainer p {
+  color: #fff;
+  font-family: Montserrat;
+  /* font-size: 16px;
+  font-style: normal; */
+  font-weight: 400;
+  /* line-height: 33.5px;  */
+}
+.faqUl {
+  width: 73%;
+}
+
+.faqUl hr {
+  border: none; /* Remove the default line */
+  border-top: 1px solid #d434fe;
+  margin: 20px 0;
+}
+
+.faqUl span p {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17.5px;
+  cursor: pointer;
+}
+
+.plus {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17.5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .faq {
+    width: 95vw;
+    flex-direction: column;
+    padding: 80px 0;
+  }
+  .qImgConts {
+    left: 70px;
+  }
+  .questionImage img {
+    height: 40px;
+    margin-right: 40px;
+  }
+  .faqImageContainer {
+    margin-top: 80px;
+    width: 100%;
+  }
+
+  .faqTextsContainer {
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .qText {
+    font-size: 12px;
+    width: 90%;
+  }
+  .faq1 {
+    font-size: 12px;
+  }
+
+  .faq h2 {
+    font-size: 20px;
+  }
+
+  .faqUl {
+    width: 80%;
+  }
+  li p {
+    font-size: 14px;
+    text-align: left;
+  }
+}

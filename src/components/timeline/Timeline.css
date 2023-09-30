@@ -1,0 +1,238 @@
+.timeline {
+  padding: 80px 0;
+  width: 95vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainTimeline {
+  position: relative;
+  right: 78px;
+}
+.topTimelineTexts {
+  text-align: center;
+  width: 30%;
+  margin-bottom: 80px;
+}
+
+.topTimelineTexts h2 {
+  color: #fff;
+  font-family: Clash Display;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.topTimelineTexts p {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 172.4%; /* 24.136px */
+}
+
+.horizontalRule {
+  width: 4px;
+  height: 86px;
+  background: #d434fe;
+}
+
+.circle {
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  background: linear-gradient(270deg, #903aff 0%, #d434fe 100%);
+}
+
+.groupOne h3 {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+
+.groupOne p {
+  color: #fff;
+
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170.9%; /* 23.926px */
+}
+
+.groupTwo h3 {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  align-self: flex-end;
+  position: relative;
+  right: 152px;
+  bottom: 15px;
+}
+
+.timelineRow {
+  margin-top: 20px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.special {
+  height: 137px;
+}
+.groupOne {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.groupTwo {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.timelineShapes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.timelineCircleP {
+  text-align: center;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.mobad {
+  order: 2;
+}
+
+.mali {
+  order: 2;
+  text-align: left;
+  width: 38%;
+  position: relative;
+  left: 60px;
+  top: 20px;
+}
+
+.mali2 {
+  position: relative;
+  left: 166px;
+  /* width: 40%; */
+}
+
+.rotationalH2 {
+  position: relative;
+  left: 120px;
+}
+
+@media screen and (max-width: 576px) {
+  .timeline {
+    align-items: unset;
+  }
+  .topTimelineTexts {
+    width: 80%;
+    /* background-color: #903aff; */
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 60px;
+  }
+
+  .topTimelineTexts h2 {
+    font-size: 20px;
+  }
+  .topTimelineTexts p {
+    font-size: 14px;
+  }
+  .timelineCircleP {
+    font-size: 12px;
+  }
+  .circle {
+    width: 19.32px;
+    height: 19.32px;
+    margin-top: 5px;
+  }
+  .horizontalRule {
+    width: 2px;
+    height: 77px;
+  }
+  .responsiveTimeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #fff; */
+    justify-content: center;
+  }
+  .responsiveRow {
+    /* background-color: #d434fe; */
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .responsiveTT {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 90%;
+  }
+  .responsiveTT h3 {
+    color: #d434fe;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0px;
+  }
+
+  .responsiveTT p {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 159.9%; /* 19.188px */
+    margin-bottom: 0px;
+  }
+
+  .responsiveTT h2 {
+    color: #d434fe;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    top: -4px;
+  }
+}

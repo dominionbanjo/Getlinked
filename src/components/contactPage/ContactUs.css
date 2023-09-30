@@ -1,0 +1,225 @@
+.socialContainer {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  /* background-color: aliceblue; */
+  /* justify-content: center; */
+}
+
+.socialsContact {
+  /* padding-left: 80px; */
+  margin-left: -10px;
+  display: grid;
+  grid-template-columns: 40px 40px 40px 40px;
+  place-items: center;
+  text-align: center;
+}
+
+.contactUsPageContainer {
+  /* background-color: aliceblue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 80vw;
+  height: 80vh; */
+  margin: 0 auto;
+}
+
+.contactUsPage {
+  /* background-color: aliceblue; */
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactUsLeftSection {
+  width: 30%;
+}
+
+.contactUsLeftSection p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 50px;
+}
+
+.share {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contactUsLeftSection h2 {
+  color: #d434fe;
+  font-family: Clash Display;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+.contactUsRightSection {
+  width: 55%;
+}
+
+.contactUsRightSection form {
+  position: relative;
+  width: 617px;
+  height: 611px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form h3 {
+  color: #d434fe;
+  font-family: Clash Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+input,
+textarea,
+select {
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 40px;
+}
+
+.contactUsRightSection input {
+  width: 437px;
+  height: 47px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  padding-left: 25px;
+}
+
+.contactUsRightSection input::placeholder {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+textarea {
+  width: 437px;
+  height: 119px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+textarea::placeholder {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.hiddenContactP {
+  display: none;
+}
+.socialContainer2C {
+  display: none;
+}
+.cancelWrapperBack {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .contactUsLeftSection {
+    display: none;
+  }
+  .hiddenContactP {
+    display: unset;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 20px 0;
+  }
+  .cancelWrapperBack {
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    padding-top: 20px;
+  }
+  .contactUsRightSection {
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background-color: #170e2e;
+  }
+  .contactUsRightSection form {
+    width: 100%;
+    height: 100%;
+    align-items: unset;
+    padding: 0 20px;
+    background: unset;
+    box-shadow: unset;
+  }
+  form h3 {
+    font-size: 20px;
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  .contactUsRightSection input {
+    width: 90%;
+    height: 47px;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    padding-left: 25px;
+  }
+  textarea {
+    width: 90%;
+  }
+  .contactUsRightSection button {
+    align-self: center;
+    width: 172px;
+    height: 53px;
+    margin-bottom: 40px;
+  }
+
+  .socialContainer2C {
+    display: unset;
+    align-self: center;
+    margin-bottom: 30px;
+  }
+  .socialContainer2C img {
+    width: 70%;
+  }
+  .socialContainer2CP {
+    text-align: center;
+    margin-bottom: 5px;
+    color: #d434fe;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
